@@ -1,0 +1,12 @@
+# Virtualenv
+venv_gastro/
+__pycache__/
+*.pyc
+
+# Temporários
+*.log
+*.tmp
+
+# Segredos locais
+.env
+.secrets/
