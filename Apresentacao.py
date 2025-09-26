@@ -86,6 +86,10 @@ st.markdown(f"""
 st.sidebar.markdown("<div style='height:12px'></div>", unsafe_allow_html=True)
 st.sidebar.image(os.path.join(LOGOS, "sinapse.png"), use_container_width=True)
 
+# >>> NOVO: logo de Gastronomia abaixo da logo SINAPSE 2.0 <<<
+st.sidebar.markdown("<div style='height:8px'></div>", unsafe_allow_html=True)
+st.sidebar.image(os.path.join(LOGOS, "Gastronomia.png"), use_container_width=True)
+
 # ========= CONTEÚDO DA PÁGINA =========
 st.markdown("""
 <div style="padding:20px; border-radius:15px; background:#eef6ff; border:1px solid #d0e2f0; margin-bottom:20px;">
